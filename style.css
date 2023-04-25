@@ -1,0 +1,179 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+
+body {
+    background: linear-gradient(#040228, #0075c7);
+    min-height: 100vh;
+    overflow-x: hidden;
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    color: #000;
+    font-size: 6em;
+    cursor: default;
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    background: rgb(30, 34, 76);
+}
+
+.para{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.getto{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+    box-sizing: content-box;
+}
+
+.inp{
+    border-radius: 40px;
+    border: 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+/* --------------------------------------FOOTER START------------------------------------- */
+/* --------------------------------------FOOTER START------------------------------------- */
+/* --------------------------------------FOOTER START------------------------------------- */
+/* --------------------------------------FOOTER START------------------------------------- */
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+/* --------------------------------------FOOTER END------------------------------------- */
+/* --------------------------------------FOOTER END------------------------------------- */
+/* --------------------------------------FOOTER END------------------------------------- */
+/* --------------------------------------FOOTER END------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
+/* -------------------------------------------------------------------------------------END */
+/* --------------------------------CUSTOM SCROLLBAR START------------------------ */
+/* --------------------------------CUSTOM SCROLLBAR START------------------------ */
+/* --------------------------------CUSTOM SCROLLBAR START------------------------ */
+/* --------------------------------CUSTOM SCROLLBAR START------------------------ */
+/* --------------------------------CUSTOM SCROLLBAR START------------------------ */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #598bcd;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#181f79, #24ddcd);
+}
+/* -------------------------------------CUSTOM SCROLLBAR END------------------------------ */
+/* -------------------------------------CUSTOM SCROLLBAR END------------------------------ */
+/* -------------------------------------CUSTOM SCROLLBAR END------------------------------ */
+/* -------------------------------------CUSTOM SCROLLBAR END------------------------------ */
+/* -------------------------------------CUSTOM SCROLLBAR END------------------------------ */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
